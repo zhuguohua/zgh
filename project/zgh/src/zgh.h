@@ -23,7 +23,7 @@
 #include "algorithm/base64/base64.h"
 #include "algorithm/hash/crc.h"
 #include "algorithm/hash/hash.h"
-#include "algorithm/myque/myque.hpp"
+#include "algorithm/myque/safeque.hpp"
 #include "algorithm/url/url.h"
 #include "parser/json/json.h"
 #include "str/str.h"

@@ -11,9 +11,9 @@
 #include <thread>
 #include <iostream>
 #include <sstream>
-#include "../src/algorithm/myque/myque.hpp"
+#include "../src/algorithm/myque/safeque.hpp"
 
-api202104::myque<std::string> g_que(500);
+api202104::safeque<std::string> g_que(500);
 
 void threadProcessData() {
 	int count = 0;

@@ -12,13 +12,16 @@ int main()
 	std::string sha1     = zgh::sha1("123456", 6);
 	std::string sha256 = zgh::sha256("123456", 6);
 
+	// base64 编码解码
 	std::string b64enc = zgh::base64::encodeStr("1234568");
 	std::string b64dec = zgh::base64::decodeStr(b64enc);
 
+	// url 编码解码
 	std::string urlstr = "https://John:Dow@github.com:80/corporateshark/LUrlParser?a=你好&b=2";
 	std::string urlenc = zgh::urlEncode(urlstr);
 	std::string urldec = zgh::urlDecode(urlenc);
 
+	// url解析
 	zgh::url     url    = zgh::url(urlstr);
 	std::string host = url.host();
 	std::string port = url.port();

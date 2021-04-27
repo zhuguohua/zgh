@@ -7,12 +7,12 @@
   *
  */
 #include <thread>
-#include "../algorithm/myque/myque.hpp"
+#include "../algorithm/myque/safeque.hpp"
 #include "process-0.h"
 #include "process.h"
 
-static api202104::myque<std::string> g_sendque(50);
-static api202104::myque<std::string> g_recvque(50);
+static api202104::safeque<std::string> g_sendque(50);
+static api202104::safeque<std::string> g_recvque(50);
 
 namespace api202104
 {

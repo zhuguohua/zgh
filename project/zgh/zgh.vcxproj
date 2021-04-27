@@ -176,7 +176,6 @@
     <ClCompile Include="src\process\process.cpp" />
     <ClCompile Include="src\str\str.cpp" />
     <ClCompile Include="test\testque.cpp" />
-    <ClCompile Include="test\testzgh.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\algorithm\hash\libcrc\src\checksum.h" />
@@ -202,13 +201,12 @@
     <ClInclude Include="src\algorithm\hash\hash-library\sha256.h" />
     <ClInclude Include="src\algorithm\hash\hash-library\sha3.h" />
     <ClInclude Include="src\algorithm\hash\hash.h" />
-    <ClInclude Include="src\algorithm\myque\myque.hpp" />
+    <ClInclude Include="src\algorithm\myque\safeque.hpp" />
     <ClInclude Include="src\algorithm\url\url.h" />
     <ClInclude Include="src\env\env.h" />
     <ClInclude Include="src\process\process-0.h" />
     <ClInclude Include="src\process\process.h" />
     <ClInclude Include="src\str\str.h" />
-    <ClInclude Include="test\testzgh.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="src\algorithm\hash\hash-library\LICENSE" />

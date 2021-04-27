@@ -17,7 +17,7 @@
 
 	 例子，见testque.cpp：
 
-	 myque<std::string> g_que(500); // 队列长度500.
+	 safeque<std::string> g_que(500); // 队列长度500.
 	 g_que.push("123"); // 入列
 	 g_que.pop(str, 5000); // 出列，超时5秒。
 
@@ -33,11 +33,11 @@
 namespace api202104
 {
 	template <typename ty>
-	class myque : public std::queue<ty> {
+	class safeque : public std::queue<ty> {
 		typedef std::queue<ty> mysuper;
 	public:
-		myque() { m_maxquelen = ~0; }
-		myque(unsigned long maxquelen) { m_maxquelen = maxquelen; }
+		safeque() { m_maxquelen = ~0; }
+		safeque(unsigned long maxquelen) { m_maxquelen = maxquelen; }
 	public:
 		// 出队列，并从队列移除数据。
 		bool pop(ty &v, unsigned long wait_timeout_ms) {
@@ -53,7 +53,7 @@ namespace api202104
 			{
 				std::unique_lock<std::mutex> lock(m_mtx);
 				if (mysuper::size() > m_maxquelen) {
-					myque<ty>().swap(*this);
+					safeque<ty>().swap(*this);
 				}
 				mysuper::push(v);
 			}
