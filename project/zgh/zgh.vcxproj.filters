@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithm\base64\base64.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithm\hash\hash-library\crc32.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithm\hash\hash-library\keccak.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithm\hash\hash-library\md5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithm\hash\hash-library\sha1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithm\hash\hash-library\sha3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithm\hash\hash-library\sha256.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithm\hash\hash.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithm\url\url.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\process\process.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testque.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testzgh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithm\base64\b64c\buffer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithm\base64\b64c\decode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithm\base64\b64c\encode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\str\str.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\net\httpsvr\HttpService.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\net\httpsvr\httpsvr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithm\url\LUrlParser\LUrlParser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithm\hash\libcrc\src\crc8.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithm\hash\libcrc\src\crc16.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\algorithm\hash\crc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parser\json\CJsonObject\cJSON.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parser\json\CJsonObject\CJsonObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\net\httpsvr\mongoose\mongoose.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\algorithm\base64\base64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithm\hash\hash-library\crc32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithm\hash\hash-library\hash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithm\hash\hash-library\hmac.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithm\hash\hash-library\keccak.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithm\hash\hash-library\md5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithm\hash\hash-library\sha1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithm\hash\hash-library\sha3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithm\hash\hash-library\sha256.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithm\hash\hash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithm\myque\myque.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithm\url\url.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\env\env.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\process\process.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\process\process-0.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\zgh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="test\testzgh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithm\base64\b64c\b64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\str\str.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\net\httpsvr\HttpService.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\net\httpsvr\httpsvr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithm\url\LUrlParser\LUrlParser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithm\hash\libcrc\src\checksum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithm\hash\crc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hcdef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithm\url\URLParser\URLParser.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\parser\json\CJsonObject\cJSON.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\parser\json\CJsonObject\CJsonObject.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\parser\json\json.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\net\httpsvr\mongoose\mongoose.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\algorithm\hash\hash-library\LICENSE" />
+    <None Include="src\algorithm\hash\hash-library\readme.md" />
+  </ItemGroup>
+</Project>

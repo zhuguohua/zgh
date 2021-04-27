@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{A2091094-C762-41C3-BF9A-38D67779BACE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>zgh</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\algorithm\base64\b64c\buffer.c" />
+    <ClCompile Include="src\algorithm\base64\b64c\decode.c" />
+    <ClCompile Include="src\algorithm\base64\b64c\encode.c" />
+    <ClCompile Include="src\algorithm\base64\base64.cpp" />
+    <ClCompile Include="src\algorithm\hash\crc.cpp" />
+    <ClCompile Include="src\algorithm\hash\libcrc\src\crc16.c" />
+    <ClCompile Include="src\algorithm\hash\libcrc\src\crc8.c" />
+    <ClCompile Include="src\algorithm\hash\hash-library\crc32.cpp" />
+    <ClCompile Include="src\algorithm\hash\hash-library\keccak.cpp" />
+    <ClCompile Include="src\algorithm\hash\hash-library\md5.cpp" />
+    <ClCompile Include="src\algorithm\hash\hash-library\sha1.cpp" />
+    <ClCompile Include="src\algorithm\hash\hash-library\sha256.cpp" />
+    <ClCompile Include="src\algorithm\hash\hash-library\sha3.cpp" />
+    <ClCompile Include="src\algorithm\hash\hash.cpp" />
+    <ClCompile Include="src\algorithm\url\LUrlParser\LUrlParser.cpp" />
+    <ClCompile Include="src\algorithm\url\url.cpp" />
+    <ClCompile Include="src\parser\json\CJsonObject\cJSON.c" />
+    <ClCompile Include="src\parser\json\CJsonObject\CJsonObject.cpp" />
+    <ClCompile Include="src\net\httpsvr\HttpService.cpp" />
+    <ClCompile Include="src\net\httpsvr\httpsvr.cpp" />
+    <ClCompile Include="src\net\httpsvr\mongoose\mongoose.c" />
+    <ClCompile Include="src\process\process.cpp" />
+    <ClCompile Include="src\str\str.cpp" />
+    <ClCompile Include="test\testque.cpp" />
+    <ClCompile Include="test\testzgh.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\algorithm\hash\libcrc\src\checksum.h" />
+    <ClInclude Include="src\algorithm\url\LUrlParser\LUrlParser.h" />
+    <ClInclude Include="src\algorithm\url\URLParser\URLParser.hpp" />
+    <ClInclude Include="src\hcdef.h" />
+    <ClInclude Include="src\parser\json\CJsonObject\cJSON.h" />
+    <ClInclude Include="src\parser\json\CJsonObject\CJsonObject.hpp" />
+    <ClInclude Include="src\parser\json\json.h" />
+    <ClInclude Include="src\net\httpsvr\HttpService.h" />
+    <ClInclude Include="src\net\httpsvr\httpsvr.h" />
+    <ClInclude Include="src\net\httpsvr\mongoose\mongoose.h" />
+    <ClInclude Include="src\zgh.h" />
+    <ClInclude Include="src\algorithm\base64\b64c\b64.h" />
+    <ClInclude Include="src\algorithm\base64\base64.h" />
+    <ClInclude Include="src\algorithm\hash\crc.h" />
+    <ClInclude Include="src\algorithm\hash\hash-library\crc32.h" />
+    <ClInclude Include="src\algorithm\hash\hash-library\hash.h" />
+    <ClInclude Include="src\algorithm\hash\hash-library\hmac.h" />
+    <ClInclude Include="src\algorithm\hash\hash-library\keccak.h" />
+    <ClInclude Include="src\algorithm\hash\hash-library\md5.h" />
+    <ClInclude Include="src\algorithm\hash\hash-library\sha1.h" />
+    <ClInclude Include="src\algorithm\hash\hash-library\sha256.h" />
+    <ClInclude Include="src\algorithm\hash\hash-library\sha3.h" />
+    <ClInclude Include="src\algorithm\hash\hash.h" />
+    <ClInclude Include="src\algorithm\myque\myque.hpp" />
+    <ClInclude Include="src\algorithm\url\url.h" />
+    <ClInclude Include="src\env\env.h" />
+    <ClInclude Include="src\process\process-0.h" />
+    <ClInclude Include="src\process\process.h" />
+    <ClInclude Include="src\str\str.h" />
+    <ClInclude Include="test\testzgh.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\algorithm\hash\hash-library\LICENSE" />
+    <None Include="src\algorithm\hash\hash-library\readme.md" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
