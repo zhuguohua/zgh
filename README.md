@@ -4,9 +4,9 @@ welcome everyone to contribute code, or fix bug.
 
 git address: https://github.com/zhuguohua/zgh/edit/master
 
-more info visit blog:   
+一个C++跨平台轻量组件库。欢迎大家参与使用和优化，  
+更多详情访问:   
 https://blog.csdn.net/u012910342/article/details/116211465
-
 
 surport:  
 queue-hash-md5-crc-url-base64-convert-xml-json-httpsvr-interprocess  
