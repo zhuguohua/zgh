@@ -32,7 +32,7 @@ namespace api202104
 		std::wstring utf2wstr(const std::string &src);
 
 		template <typename ty>
-		std::string numtostr(ty val) {
+		std::string num2str(ty val) {
 			return std::to_string(val);
 			//std::stringstream str;
 			//str << val;
@@ -40,7 +40,7 @@ namespace api202104
 		}
 
 		template <typename ty>
-		ty strtonum(const std::string &src) {
+		ty str2num(const std::string &src) {
 			ty val = 0;
 			std::stringstream str;
 			str << src;
